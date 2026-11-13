@@ -1,2 +1,2 @@
-# Website
-Basic website, ideas are some kind of informational website, maybe related to 3d model or something historical
+# 3D Model Website
+Informative website about 3d modeling and what it is as well as providing tips and resources.
