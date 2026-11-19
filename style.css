@@ -10,22 +10,30 @@ h1 {
     align-items: top;
 
 }
-.ParaOne {
+
+.Row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.ParaRight {
+    Display: Block;
     font-family: arial;
     font-size: 20px;
-    display: flex;
-    justify-content: right;
-    align-items: top;
+    text-align: right;
+
     margin-right:250px;
-    margin-top: 20px;
+    
 }
 
-#StarterImage {
-    display: flex;
-    justify-content: block;
-    align-items: top;
-    margin-left: 100px;
+
+.ImageLeft {
+    display: block;
+    margin-left: 40px;
     margin-bottom: 20px;
+    width: 350px;
+    height: auto;
 }
 
 h2 {
@@ -35,6 +43,7 @@ h2 {
      justify-content: center;
     align-items: center;
     margin-top: 100px;
+    margin-bottom: 40px;
 }
 
 #ParaTwo {
@@ -52,7 +61,6 @@ h2 {
 #ImageTwo {
      display: block;
     margin-left: auto;
-    margin-top: -100px;
     width: 400px;
     height: auto;
 }
@@ -64,46 +72,66 @@ h2 {
      justify-content: center;
     align-items: center;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .LinkImages {
     display: flex;
     padding: 20px;
-    width: 200px;
+    width: auto;
     height:auto;
     gap:20px;
 }
+
+.LinkText {
+ display: flex;
+    padding: 20px;
+    width: auto;
+    height:auto;
+    gap:20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
-#one {
-display: flex;
-    margin-right: auto;
-    margin-bottom: 200px;
-    width: 200px;
-    height: auto;
+video tutorials stuff
+*/ 
+
+.h2Class {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+
+    /* now i can change all of the h2 elements here to whatever i want in one go */
 }
 
-#two {
-display: flex;
-    margin-right: auto;
-    margin-right: 200px;
-    margin-bottom: 200px;
-    width: 200px;
-    height: auto;
-}
 
-#three {
-display: flex;
-    margin-right: auto;
-    margin-bottom: 200px;
-    width: 200px;
-    height: auto;
-}
 
-#four {
-display: flex;
+
+.LinkDescription {
+    display:block;
+    margin-left: auto;
     margin-right: auto;
-    margin-bottom: 200px;
-    width: 200px;
-    height: auto;
+    font-family: arial;
+    font-size: 20px;
+width:500px;
 }
-    */
